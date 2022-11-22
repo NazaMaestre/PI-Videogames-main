@@ -1,0 +1,60 @@
+.con{
+    display: inline-block;
+  
+}
+
+.container{
+    width: 90%;
+    border: 1px solid black;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(211, 255, 253);
+    box-shadow: 6px 5px 9px 4px #031e6f;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size:x-large;
+    font-weight: 600;
+    color: #0411a9;
+
+}
+.game-div{
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    overflow: hidden;
+    width: 500px;
+    height: 400px;
+    
+}
+.rating{
+    object-fit: cover;
+    font-size: 25px;
+    width: 100%;
+    min-height: 100%;
+    border-radius: 10px;
+    color: rgb(252, 143, 0);
+}
+.genre{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color:darkblue;
+
+}
+
+.details{
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 3px 2px 3px 1px #1411d1;
+    background-color: rgb(35, 244, 251);
+    font-size: 30px;
+    text-decoration: none;
+}

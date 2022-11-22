@@ -1,0 +1,68 @@
+.titleD{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(255, 101, 11);
+    background-color: darkblue;
+    
+}
+.imgD{
+    width: 100%;
+}
+.ratingD{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: rgb(255, 101, 11);
+    background-color: blue;
+    width: 10%;
+    text-align: center;
+    display: flex;
+
+}
+.genreD{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 101, 11);
+    background-color: blue;
+    width: 10%;
+    text-align: center;
+    display: flex;
+}
+.releaseD{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 101, 11);
+    background-color: blue;
+    width: 10%;
+    text-align: center;
+    display: flex;
+}
+.plataformD{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 101, 11);
+    background-color: blue;
+    width: 10%;
+    text-align: center;
+    display: flex;
+}
+.btnD{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 3px 1px #ff5a5a;
+    background-color: rgb(252, 255, 194);
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btnD:hover{
+    background-color: #ff5a5a;
+    color:black;
+}
+.backg{
+    background-color: rgb(214, 214, 214);
+}
+.contenedor{
+    display: inline-block;
+}

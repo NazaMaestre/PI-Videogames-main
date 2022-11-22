@@ -1,0 +1,30 @@
+.pag-div{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.pagination{
+    margin:20px 0;
+    list-style: none;
+    text-align: center;
+}
+
+.number{
+    display: inline-block;
+    margin-right: 10px;
+    
+
+}
+.numbs{
+    display: block;
+    padding: 15px 30px;
+    color: rgb(0, 8, 255);
+    background-color:  rgb(193, 240, 255);
+    font-size: 20px;
+    border-radius: 15px;
+    border: solid 3px;
+}
+.numbs:hover{
+    background-color: rgba(0, 89, 255, 0.988);
+    color:white
+}

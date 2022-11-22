@@ -1,0 +1,51 @@
+.title1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45px;
+    color: #94efff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+
+    text-shadow: -1px -1px 0px rgb(1, 1, 111),
+    5px 5px 0px rgb(1, 1, 111),
+    6px 6px 0px rgb(1, 1, 111);
+}
+
+.back1{
+    background-color: rgb(214, 214, 214);
+    position: absolute;
+    
+}
+.btnV{
+    background-color: #94efff; 
+    border: none;
+    color: rgb(9, 54, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    border: solid 3px;
+}
+.btnV:hover {
+    background-color: #000dff; 
+    color: white;
+}
+
+.barras{
+    height: 40px;
+    margin:50px;
+    border-radius: 5px;
+    width: 330px;
+    text-align: center;
+    background-color: rgb(193, 240, 255);
+    border: solid 3px;
+    color: rgb(9, 54, 255);
+    font-size: 15px;
+}
+.barras:hover{
+    background-color: #000dff; 
+    color: white;
+}
+
