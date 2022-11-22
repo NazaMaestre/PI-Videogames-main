@@ -34,7 +34,7 @@ router.get("/", async (req, res) => {
 
         // Traigo de la API los primeros 15 juegos que coincidan con la palabra ingresada por query
         let gamesAPI = await axios.get(
-          `https://api.rawg.io/api/games?search=${name}&key=${API_KEY}&page_size=15`
+          `https://api.rawg.io/api/games?search=${name}&key=${API_KEY}&page=15`
         );
 
         gamesAPIFull = gamesAPI.data.results.map((g) => {
@@ -65,7 +65,7 @@ router.get("/", async (req, res) => {
       } else {
         //Traigo solo los juegos de la API con el nombre que recibí
         let gamesAPI = await axios.get(
-          `https://api.rawg.io/api/games?search=${name}&key=${API_KEY}&page_size=15`
+          `https://api.rawg.io/api/games?search=${name}&key=${API_KEY}&page=15`
         );
 
         //gamesAPIFull es un array de objetos (game)
