@@ -13,7 +13,7 @@ export default function rootReducer (state= initialState, action){
                 videogames: action.payload,
                 allVideogames: action.payload
             };
-        case "GET_GENRES":
+        case "GET_GENRES": 
             return {
                 ...state,
                 genres: action.payload,
